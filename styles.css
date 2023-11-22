@@ -1,0 +1,188 @@
+body {
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
+}
+
+/* Generic */
+.main-heading
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    
+}
+
+.secondary-heading{
+    font-size: 1.3rem;
+}
+
+.reader-text{
+    font-size: 1.1rem;
+}
+
+.fa-brands{
+    color: #000;
+}
+
+/* Navigation bar */
+.navbar-nav{
+    padding-right: 7%;
+}
+.logo {
+  height: 70px;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #3f1d38;
+}
+
+/* Banner section */
+#banner {
+  position: relative;
+  background-color: #3f1d38;
+}
+
+.writer{
+    font-style: italic;
+}
+
+.slides {
+  color: whitesmoke;
+  text-align: center;
+  padding: 5%;
+}
+
+.slide {
+  padding: 7% 10%;
+}
+
+.banner-img-block {
+  text-align: right;
+}
+
+.banner-img {
+  max-width: 70%;
+  height: auto;
+  padding-top: 10%;
+}
+
+
+/* About section */
+
+#about{
+    background-color: #E19898;
+    text-align: center;
+    padding: 7%;
+}
+
+.about-image{
+    max-width: 100%;
+    height: auto;
+    padding-top: 15%;
+}
+
+.about-btn{
+    padding: 7%;
+}
+
+.about-text{
+    text-align: left;
+    padding: 7%;
+}
+
+/* services section */
+#services{
+    text-align: center;
+    padding: 7%;
+}
+.service{
+    padding: 5%;
+}
+
+.service-text{
+    padding: 5%;
+}
+
+.service-img{
+    max-width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
+/* Contact section */
+#contact{
+    background-color: #A2678A;
+    position: relative;
+}
+
+.map{
+   
+   padding: 2%;
+   margin: 2%;
+   border-style:solid;
+   border-radius: 20px;
+   background-color:#3f1d38;
+}
+
+.call-back{
+    padding: 7% 18%;
+}
+
+.map-section{
+    padding-top: 5%;
+}
+
+.call-section{
+    padding: 5%;
+}
+
+/* Team section */
+#team{
+    text-align: center;
+    padding: 5%;
+}
+
+.team-head{
+    padding: 2% 25%;
+}
+
+.team-member{
+    padding: 5%;
+}
+
+.team-img{
+    max-width: 60%;
+}
+
+/* Footer section */
+#footer{
+    background-color: #A2678A;
+    padding: 5%;
+    text-align: left;
+}
+
+.footer-text{
+    text-align: left;
+}
+
+.address{
+    min-width: 50%;
+    height: auto;
+    padding: 5% 10%;
+}
+
+.socials{
+    text-align: center;
+    padding: 20% 15%;
+}
+/* Copyright section */
+#copyright{
+    background-color: #3f1d38;
+    color: aliceblue;
+    text-align: center;
+}
+

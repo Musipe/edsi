@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EDSI</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- *****************************HEADER SECTION ******************************-->
+    <section id="header">
+      <!-- begin Navigation bar -->
+
+      <div class="navbar navbar-expand-md" data-bs-theme="dark">
+        <div class="container-fluid">
+          <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="images/edsilogo.png" alt="logo" />
+            <span class="company-name">EDSI</span>
+          </a>
+
+          <!-- navbar toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation icons -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#header">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- end Navigation bar -->
+    </section>
+    <!--***************************** HEADER SECTION END *************************-->
+
+    <!--***************************** BANNER SECTION ****************************-->
+    <section id="banner">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 banner-img-block">
+          <img class="banner-img" src="images/banner-bg.png" alt="" />
+        </div>
+        <div class="col-lg-6 col-md-6 slides">
+          <h2 class="main-heading">BUILDING CONSTRUCTION</h2>
+          <hr>
+
+          <div
+            class="carousel slide"
+            id="banner-slides"
+            data-bs-ride="carousel"
+          >
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active slide">
+                <p class="reader-text">
+                  “We require from buildings two kinds of goodness: first, the
+                  doing their practical duty well: then that they be graceful
+                  and pleasing in doing it.”
+                </p>
+                <p class="reader-text writer">John Ruskin</p>
+              </div>
+              <div class="carousel-item slide">
+                <p class="reader-text">
+                  “The bitterness of poor quality remains long after the
+                  sweetness of low price is forgotten.”
+                </p>
+                <p class="reader-text writer">Benjamin Franklin</p>
+              </div>
+            </div>
+            <!-- movement buttons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#banner-slides"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#banner-slides"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--****************************BANNER SECTION END ************************-->
+
+    <!--**************************** ABOUT SECTION ************************-->
+    <section id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="main-heading">ABOUT COMPANY</h1>
+            <hr>
+            <p class="reader-text about-text">
+              We are EDSI Construction company, a devoted company in the
+              construction industry. We have been providing quality services and
+              solutions for residential, commercial, and industrial projects
+              since 2023. Our mission is to deliver innovative, sustainable, and
+              cost-effective construction that meets the needs and expectations
+              of our clients. Whether you need a new home, office, factory, or
+              infrastructure, we are ready to help you turn your vision into
+              reality. Contact us today and let us build your dream project.
+            </p>
+
+            <a href="#">
+              <button class="btn btn-lg btn-dark about-btn">ABOUT MORE</button>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <img class="about-image" src="images/about-bg.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--************************* END OF ABOUT SECTION **********************-->
+
+    <!--**************************** SERVICES SECTION *********************-->
+    <section id="services">
+      <h1 class="main-heading">OUR SERVICES</h1>
+      <hr>
+      <p class="reader-text">Some services we offer</p>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 service">
+            <img class="service-img" src="images/img-1.png" alt="" />
+            <h2 class="secondary-heading">ARCHITECTURAL DESIGN</h2>
+            <p class="reader-text service-text">
+              Offers architectural work from conceptualization to design
+              drawings not to mention the stunning artistic impressions.
+            </p>
+          </div>
+          <div class="col-lg-4 service">
+            <img class="service-img" src="images/img-2.png" alt="" />
+            <h2 class="secondary-heading">CONSTRUCTION SERVICES</h2>
+            <p class="reader-text service-text">
+              Offer both construction and reconstruction services with an
+              experienced team bent on excellency in service.
+            </p>
+          </div>
+          <div class="col-lg-4 service service-text">
+            <img class="service-img" src="images/img-3.png" alt="" />
+            <h2 class="secondary-heading">ELECTRICAL SERVICES</h2>
+            <p class="reader-text">
+              Offers electrical services for both small and large scale projects
+              with the best of workmaship
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--*********************** END OF SERVICES SECTION ********************-->
+
+    <!--**************************** CONTACT SECTION ************************-->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <!-- Call back -->
+            <div class="call-section">
+              <h2 class="main-heading">Request a Call Back</h2>
+              <hr>
+              <div class="call-back">
+                <form action="#" method="post">
+                  <label class="form-label" for="name">Name</label>
+                  <input class="form-control" placeholder="Your Name" type="text" name="name" /><br />
+
+                  <label class="form-label" for="youremail">Email</label>
+                  <input
+                    class="form-control"
+                    placeholder="Your Email"
+                    type="email"
+                    name="youremail"
+                  /><br />
+
+                  <label class="form-label" for="phonenumber">Phone No.</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Phone Number"
+                    name="phonenumber"
+                  /><br />
+
+                  <label class="form-label" for="message">Your Message</label>
+                  <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    id="message"
+                    cols="30"
+                    rows="6"
+                  ></textarea>
+                  <br />
+                  <br />
+
+                  <input
+                    class="btn btn-lg btn-dark"
+                    type="submit"
+                    value="SEND"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <!-- Map -->
+            <div class="map-section">
+              <h1 class="main-heading">Our Location</h1>
+              <hr>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.732165028703!2d32.65542977453343!3d0.37653286393199653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db949dc9e2435%3A0x1672a197a86ce74c!2sMbalwa%20Trading%20Centre!5e0!3m2!1sen!2sus!4v1698060316782!5m2!1sen!2sus"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border: 0; width: 100%"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--************************* END OF CONTACT SECTION ******************-->
+
+    <!--*********************************TEAM SECTION *********************-->
+    <section id="team">
+      <div class="team-head">
+        <h1>TEAM</h1>
+        <hr>
+        <p>
+          An amazing administrators team that harnesses a broader team to
+          execute exquisite work.
+        </p>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 team-member">
+            <!-- Lead architect -->
+            <img class="team-img" src="images/simo.png" alt="" />
+            <h2 class="secondary-heading">MULWANA SIMON PETER</h2>
+            <p class="reader-text">Lead Architect</p>
+          </div>
+          <div class="col-lg-4 col-md-4 team-member">
+            <!-- Lead engineer -->
+            <img class="team-img" src="images/edwin.png" alt="" />
+            <h2 class="secondary-heading">LWASA EDWIN BYUMA</h2>
+            <p class="reader-text">Lead Engineer</p>
+          </div>
+          <div class="col-lg-4 col-md-4 team-member">
+            <!-- President -->
+            <img class="team-img" src="images/agaba.png" alt="" />
+            <h2 class="secondary-heading">BWAMBALE EDWIN AGABA</h2>
+            <p class="reader-text">President</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--********************************* END OF TEAM SECTION *********************-->
+
+    <!--*********************************FOOTER SECTION *********************-->
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <h2 class="main-heading footer-text">Address</h2>
+            <hr>
+            <ul class="list-group address">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="col-11">
+                    <p class="reader-text">Mbalwa, Namugongo Kampala Uganda</p>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="col-11">
+                    <p class="reader-text">
+                      +256 707877071<br />+256 782073772
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-1">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="col-11">
+                    <p class="reader-text">edsiconstruction@gmail.com</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="container-fluid socials">
+              <h2 class="main-heading">Socials</h2>
+              <hr>
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://www.facebook.com/edsiconstruction"
+                    ><i class="fa-brands fa-facebook fa-2x"></i
+                  ></a>
+                </div>
+                <div class="col-3">
+                  <a
+                    href="https://x.com/edsiconstruct/status/1705911221457727774?s=48"
+                    ><i class="fa-brands fa-twitter fa-2x"></i
+                  ></a>
+                </div>
+                <div class="col-3">
+                  <a
+                    href="https://ug.linkedin.com/in/edsi-construction-company-259593293"
+                    ><i class="fa-brands fa-linkedin fa-2x"></i
+                  ></a>
+                </div>
+                <div class="col-3">
+                  <a
+                    href="https://instagram.com/edsiconstruction?igshid=OGQ5ZDc2ODk2ZA=="
+                    ><i class="fa-brands fa-instagram fa-2x"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social section -->
+    </section>
+    <!--********************************* END OF FOOTER SECTION *********************-->
+
+    <!--********************************* COPYRIGHT SECTION *********************-->
+    <section id="copyright">
+      <!-- Copyright -->
+      <p><i class="fa-regular fa-copyright"></i> edsi co.</p>
+    </section>
+    <!--********************************* END OF COPYRIGHT SECTION *********************-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
